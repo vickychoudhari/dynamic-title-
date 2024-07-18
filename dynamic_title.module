@@ -1,0 +1,16 @@
+<?php
+
+
+/**
+ * Hook_theme used to add theme to custom block.
+ */
+function dynamic_title_theme() {
+  return [
+    'DynamicTitle' => [
+      'variables' => [
+        'title' => NULL,
+        'body'=> NULL
+        ],
+    ],
+  ];
+}
